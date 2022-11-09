@@ -31,7 +31,7 @@ function setConnected(connected) {
 function getAllUser(){
 
     $.ajax({
-            url: "http://localhost:8080/getall"
+            url: "http://129.62.151.92:8080/getall"
         }).then(function(data) {
             //alert(data);
 
